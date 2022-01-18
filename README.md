@@ -18,9 +18,9 @@ RedHat/CentOS系统:
 
 一键
 ```
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/nbxxo/d/d/InstallNET.sh') -d 10 -v 64 -a -p 2511052 -firmware
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 10 -v 64 -a 
 ```
-国内 `--mirror 'http://mirrors.ustc.edu.cn/debian/'`
+国内 `bash <(wget --no-check-certificate -qO- 'https://ghproxy.com/https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 11 -v 64 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'`
 
 默认密码：root / `2511052`
 Debian10修改root默认密码
@@ -30,7 +30,7 @@ passwd root
 
 手动
 
-```wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/nbxxo/d/d/InstallNET.sh' && chmod a+x InstallNET.sh```
+```wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh' && chmod a+x InstallNET.sh```
 
 bash InstallNET.sh -d 11 -v 64 -p 2511052 -a
 
@@ -39,8 +39,6 @@ Debian -d `7 8 9 10 11`
 ubuntu -u `12.04 14.04 16.04 18.04 20.04`
 
 centos -c `6.10`
-
-预设密码：-p
 
 全自动：-a
 
