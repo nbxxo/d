@@ -18,7 +18,7 @@ RedHat/CentOS系统:
 
 一键
 ```
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/2511052/Note/master/InstallNET.sh') -d 10 -v 64 -a -p 2511052 -firmware
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/nbxxo/d/d/InstallNET.sh') -d 10 -v 64 -a -p 2511052 -firmware
 ```
 国内 `--mirror 'http://mirrors.ustc.edu.cn/debian/'`
 
@@ -30,7 +30,7 @@ passwd root
 
 手动
 
-```wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/2511052/Note/master/InstallNET.sh' && chmod a+x InstallNET.sh```
+```wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/nbxxo/d/d/InstallNET.sh' && chmod a+x InstallNET.sh```
 
 bash InstallNET.sh -d 11 -v 64 -p 2511052 -a
 
