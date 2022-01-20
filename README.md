@@ -30,9 +30,9 @@ passwd root
 
 手动
 
-```wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh' && chmod a+x InstallNET.sh```
+```wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh' && chmod a+x d.sh```
 
-bash InstallNET.sh -d 11 -v 64 -p 2511052 -a
+bash d.sh -d 11 -v 64 -p 2511052 -a
 
 Debian -d `7 8 9 10 11`
 
