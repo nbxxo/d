@@ -31,31 +31,36 @@ Debian/Ubuntu系统:
 RedHat/CentOS系统:
 `yum update`
 
-一键
+* 一键
 ```
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 10 -v 64 -p 2511052 -a 
 ```
-国内 `bash <(wget --no-check-certificate -qO- 'https://ghproxy.com/https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 11 -v 64 -p 2511052 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'`
+* 国内
+```
+bash <(wget --no-check-certificate -qO- 'https://ghproxy.com/https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 11 -v 64 -p 2511052 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
+```
 
 默认密码：root / `2511052`
 Debian10修改root默认密码
 passwd root
 用于甲骨文 `-firmware`
 
-手动
+* 手动
 
 ```
 wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh' && chmod a+x d.sh
 ```
 
-bash d.sh -d 11 -v 64 -p 2511052 -a
+`bash d.sh -d 11 -v 64 -p 2511052 -a`
 
-Debian -d `7 8 9 10 11`
+Debian `-d` `7 8 9 10 11`
 
-ubuntu -u `12.04 14.04 16.04 18.04 20.04`
+ubuntu `-u` `12.04 14.04 16.04 18.04 20.04`
 
-centos -c `6.10`
+centos `-c` `6.10`
 
-全自动：-a
+自定义密码 `-p` 
 
-系统位数：-v 32-64
+全自动：`-a`
+
+系统位数：`-v` `32-64`
