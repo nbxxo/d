@@ -1,7 +1,7 @@
 # 你叉叉
 
-1.新增对 `Oracle AMD，Oracle ARM`全面支持. 可支持从 Ubuntu, Oracle Linux 等系统网络重装.
-2.更新 dd 镜像的基础系统版本.
+1. 新增对 `Oracle AMD，Oracle ARM`全面支持. 可支持从 Ubuntu, Oracle Linux 等系统网络重装.
+2. 更新 dd 镜像的基础系统版本.
 3.移除对外部 wget 的依赖.
 4.新增 `-port` 参数, 可更改默认SSH端口.
 5.更新 内置的网络参数计算 逻辑.
