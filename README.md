@@ -31,11 +31,11 @@ Debian/Ubuntu系统:
 RedHat/CentOS系统:
 `yum update`
 
-* 一键
+##### 一键
 ```
 bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 10 -v 64 -p 2511052 -a 
 ```
-* 国内
+##### 国内
 ```
 bash <(wget --no-check-certificate -qO- 'https://ghproxy.com/https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 11 -v 64 -p 2511052 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'
 ```
@@ -45,7 +45,7 @@ Debian10修改root默认密码
 passwd root
 用于甲骨文 `-firmware`
 
-* 手动
+##### 手动
 
 ```
 wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh' && chmod a+x d.sh
