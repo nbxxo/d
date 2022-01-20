@@ -8,11 +8,10 @@
 6. 更新 grub 配置文件定位逻辑, 可支持任意引导grub的系统.
 7. 新增 `-cmd`, 可接受开机后只运行一次的命令(base64编码).
 8. 新增对 AWS EC2 (ARM) 网络重装的支持.
-
-. 以下系统已通过测试(其他自测):
-Debian: 9, 10, 11;
-Ubuntu: 18.04, 20.04;
-CentOS: 6.10;
++ 以下系统已通过测试(其他自测):
+* Debian: 9, 10, 11;
+* Ubuntu: 18.04, 20.04;
+* CentOS: 6.10;
 
 
 ## 首先安装所需的软件根据自己本身对应的系统选择对应的命令即可。
@@ -33,9 +32,9 @@ RedHat/CentOS系统:
 
 一键
 ```
-bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 10 -v 64 -p2511052 -a 
+bash <(wget --no-check-certificate -qO- 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 10 -v 64 -p 2511052 -a 
 ```
-国内 `bash <(wget --no-check-certificate -qO- 'https://ghproxy.com/https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 11 -v 64 -p2511052 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'`
+国内 `bash <(wget --no-check-certificate -qO- 'https://ghproxy.com/https://raw.githubusercontent.com/nbxxo/d/d/d.sh') -d 11 -v 64 -p 2511052 -a --mirror 'http://mirrors.ustc.edu.cn/debian/'`
 
 默认密码：root / `2511052`
 Debian10修改root默认密码
