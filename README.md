@@ -40,7 +40,7 @@ passwd root
 ```
 wget --no-check-certificate -qO InstallNET.sh 'https://raw.githubusercontent.com/nbxxo/d/d/d.sh' && chmod a+x d.sh
 ```
-`bash d.sh -d 11 -v 64 -p 2511052 -a`
+`bash d.sh -d 11 -v 64 -p 2511052 -a`  
 Debian `-d` `7 8 9 10 11`  
 ubuntu `-u` `12.04 14.04 16.04 18.04 20.04`  
 centos `-c` `6.10`  
